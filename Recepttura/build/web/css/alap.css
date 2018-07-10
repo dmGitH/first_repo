@@ -1,0 +1,231 @@
+<!--
+body {
+    background-color: #2A0000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 24px;
+    color: #333333;
+    background-attachment:fixed;
+
+
+}
+
+td, th {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 24px;
+    color: #330000;
+}
+
+a {
+    color: #330000;
+}
+
+form {
+/*    background-color:lightblue;*/
+}
+table form {
+    background-color:lightblue;
+}
+
+.title {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    line-height: 30px;
+    background-color: #990000; color: #FFFF66;
+}
+
+.subtitle {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: bold;
+    color: #660000; font-style: oblique;
+}
+
+.header {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 24px;
+    background-color: #990000;
+    color: #FFFF66;
+}
+
+.nav {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #CCCC66;
+}
+
+.navLink {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #DEDECA;
+}
+a:hover {
+    color: #DEDECA;
+    background-color: #330000;
+}
+
+.sidebar {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 12px;
+    line-height: 18px;
+    padding: 3px;
+    background-color: #FFFF99;
+}
+
+.sidebarHeader {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFF99;
+    background-color: #999933;
+    font-weight: bold;
+}
+
+.sidebarFooter {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 12px;
+    line-height: 18px;
+    background-color: #FFFF99;
+    color: #990000;
+}
+
+.footer {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 22px;
+    color: #333333;
+    background-color: #FFFF99;
+}
+
+.legal {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 12pt;
+    color: #333333;
+}
+
+.box1 {
+    border-width: 2px;
+    border-color: #CCCCCC #333333 #333333 #CCCCCC;
+    border-style: dotted;
+}
+
+.promo {
+    font-family: "Times New Roman", Times, serif;
+    color: #000033;
+}
+
+.titlebar {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 9px;
+    color: #FFFFFF;
+    background-color: #336699;
+}
+
+.dingbat {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    background-color: #CCCC99;
+    color: #660000; font-weight: bolder; font-size: medium;
+}
+
+input.big {
+    width: 100px;
+}
+
+input.small {
+    width: 50px;
+}
+.style3 {font-family: Arial, Helvetica, sans-serif; font-size: 18px; font-weight: bold; background-color: #DEDECA; }
+.style4 {
+    font-size: 14px
+
+
+}
+.style6 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18pt;
+    color: #AA9F55;
+    font-weight: bold;
+    text-shadow: 10px -10px hsla(120, 20%, 20%, 0.8);
+
+}
+.style8 {
+    color: #55DFFF;
+    font-size: 14px;
+    font-weight: bold;
+
+
+}
+.style9 {font-family: Georgia, "Times New Roman", Times, serif; font-size: 18px; background-color: #990000; color: #FFFF66; }
+input[type="text"]{
+    background-color: lightgreen;
+    border-radius:5px;
+    font-weight: bold; color: black;  
+}
+input[type="url"]{
+    background-color: lightgreen;
+    border-radius:5px;
+    font-weight: bold; color: black;  
+}
+input[type="email"]{
+    background-color: lightgreen;
+    border-radius:5px;
+    font-weight: bold; color: black;  
+}
+input[type="submit"]{
+    border-radius:5px;
+
+}
+
+input[type="password"]{
+    border-radius:10px;
+    width: 150px;
+    background-color:#7FFFFF
+
+
+}
+table {
+    border-radius:20px;
+
+}
+td{
+    border-radius:20px;
+
+}
+.style10 {font-size: 14px}
+tr{
+
+}
+.style11 {
+    font-size: 16px;
+    color: #2A5FAA;
+    font-weight: bold;
+}
+.style12 {
+    font-size: 14px;
+    font-weight: bold;
+}
+.style14 {font-family: Georgia, "Times New Roman", Times, serif; font-size: 16px; line-height: 30px; background-color: #990000; color: #FFFF66; }
+
+.style13 {font-family: Georgia, "Times New Roman", Times, serif; font-size: 16px; line-height: 30px; background-color:  #55DFFF;; color: #FF0000; }
+.style15 {
+    color: #400000;
+    font-size: 16px;
+}
+.style16 {font-family: Georgia, "Times New Roman", Times, serif; font-size: 16px; line-height: 30px; background-color: #55DFFF; color: #FF0000; font-weight: bold; }
+.style18 {font-family: Georgia, "Times New Roman", Times, serif; font-size: 16px; line-height: 30px; background-color: #55DFFF; color: #AA0000; font-weight: bold; }
+.style19 {color: #336699}
+.lightgreen {
+    font-family: Georgia,"Times New Roman", Times, serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: bold;
+    color: red;
+    background-color: lightgreen;
+}
+.style20 {font-family: Georgia, "Times New Roman", Times, serif; font-weight: bold; font-size: 20px; line-height: 30px; background-color:  #55DFFF;; color: #FF0000; }
+-->
